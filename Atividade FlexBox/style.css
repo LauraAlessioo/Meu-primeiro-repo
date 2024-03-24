@@ -1,0 +1,126 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto;
+    padding: 0;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-1{
+    width: 90%;
+    height: 100px;
+    margin: 20px;
+    background: #c9c9c9;
+    display: flex;
+    border-radius: 8px;
+}
+.container-2{
+    width: 90%;
+    height: 100px;
+    margin: 20px;
+    background: #c9c9c9;
+    display: flex;
+    border-radius: 8px;
+    justify-content: flex-end;
+}
+.container-3{
+    width: 90%;
+    height: 100px;
+    margin: 20px;
+    background: #c9c9c9;
+    display: flex;
+    border-radius: 8px;
+    justify-content: center;
+}
+.container-4{
+    width: 90%;
+    height: 100px;
+    margin: 20px;
+    background: #c9c9c9;
+    display: flex;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+.container-5{
+    width: 90%;
+    height: 100px;
+    margin: 20px;
+    background: #c9c9c9;
+    display: flex;
+    border-radius: 8px;
+    justify-content: space-around;
+}
+.container-6{
+    width: 90%;
+    height: 100px;
+    margin: 20px;
+    background: #c9c9c9;
+    display: flex;
+    border-radius: 8px;
+    justify-content: space-evenly
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background: #63b1bc;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 25px;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background: #1f2a44;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+   font-size: 25px;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background: #ed145b;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 25px;
+}
+.box4{
+    width: 100px;
+    height: 100px;
+    background: #efb661;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 25px;
+}
+.container-exercicioB{
+    width: 90%;
+    height: fit-content;
+    margin: 20px;
+    background: #c9c9c9;
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 8px;
+}
+.container-desafio{
+    width: 90%;
+    height: fit-content;
+    margin: 20px;
+    background: #c9c9c9;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    border-radius: 8px;
+}

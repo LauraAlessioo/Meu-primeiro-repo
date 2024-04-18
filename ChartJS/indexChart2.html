@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Implementando o ChartJs 2</title>
+</head>
+<body>
+    <div>
+        <canvas id="myChart"></canvas>
+      </div>
+     
+      </body>
+      <script>
+        const labels = [
+            'Janeiro',
+            'Fevereiro',
+            'Março',
+            'Abril',
+            'Maio',
+            'Junho',
+        ];
+
+        const data = {
+            labels: labels,
+            datasets: [{
+                label: 'Temperatura Média',
+                backgroundColor: '#f2f2fe',
+                borderColor: '#009fb7',
+                data: [22, 24, 27, 23, 20, 18]
+            },
+            {
+                label: 'Umidade Média',
+                backgroundColor: '#f2f2fe',
+                borderColor: '#009fb7',
+                data: [90 , 89 , 93 , 87 , 88 , 82]
+            }
+        
+        ]
+        };
+
+        const config = {
+            type: 'bar',
+            data: data,
+            option: {}
+        };
+      </script>
+
+      <script>
+        const myChart = new Chart(
+            document.getElementById('myChart'),
+            config
+        );
+      </script>
+</html>
